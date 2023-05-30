@@ -47,10 +47,10 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: webinar/container
+          project: 100mgml/webinar
           stage: main
           yaml: |
-            name: webinar
+            name: container
             app: container
             options:
               ports: 8080
